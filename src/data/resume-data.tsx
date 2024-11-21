@@ -12,7 +12,7 @@ export const RESUME_DATA = {
 
   avatarUrl:
     "https://avatars.githubusercontent.com/u/141346737?s=400",
-  personalWebsiteUrl: "https://patilpranit.vercel.ap",
+  personalWebsiteUrl: "https://siddharth-portfolio-ivory.vercel.app/",
   contact: {
     email: "siddharth.dhodi.work@gmail.com",
     social: [
@@ -67,59 +67,66 @@ export const RESUME_DATA = {
   ],
   projects: [
     {
-      title: "MegaBlog",
+      title: "Job-Portal",
       techStack: [
-        "HTML/CSS",
         "JavaScript",
         "React",
+        "Redux-toolkit",
         "Tailwind CSS",
-        "Appwrite",
+        "Node",
+        "Jwt Authentication",
+        "Express",
+        "MongoDB"
       ],
       description:
-        "This is a blog web application built using React for the frontend and Appwrite as the backend service for handling database, authentication, and other essential services. The application leverages React Hook Form for efficient form management and validation. The project is deployed on Netlify for seamless and fast hosting.",
+        "The Job Portal Application is a MERN-based full-stack web application designed to connect students and recruiters, providing a platform for job search, application submission, and efficient management of user and company profiles.",
       logo: ParabolLogo,
       link: {
-        label: "MegaBlog",
-        href: "https://epic-blogs.vercel.ap",
+        label: "Job Portal",
+        href: "https://jobportal-production.onrender.com/",
       },
-      github: "https://github.com/siddharthdhodi05/Blog-Application",
+      github: "https://github.com/siddharthdhodi05/Job-Portal",
     },
 
     {
-      title: "Video-Streaming-Platform",
+      title: "Real-time Chat Application",
       techStack: [
         "JavaScript",
         "React",
         "Tailwind CSS",
+        "Socket.io",
         "Node.js",
         "Express.js",
         "MongoDB"
       ],
       description:
-        "Video Streaming Platform built with Node.js, Express.js, MongoDB, and JWT for authentication. Features include user login, video uploads, likes, comments, subscriptions, and more. Implements access tokens, refresh tokens, and secure password hashing with bcrypt. Follows best practices for security and scalability.",
+        "The Real-Time Chat Application is a full-stack MERN web application that allows users to communicate instantly with real-time messaging capabilities. This app ensures a smooth and engaging user experience with seamless communication, secure authentication, and efficient state management. ",
       logo: ParabolLogo,
       link: {
-        label: "Video-Streaming-Platform",
+        label: "Real-Time Chat Application",
         href: "https://epic-blogs.vercel.a",
       },
-      github: "https://github.com/siddharthdhodi05/Video-Streaming-Platform",
+      github: "https://github.com/siddharthdhodi05/Chat-Application",
     },
     
     {
-      title: "Weather Web Application",
+      title: "Email Application",
       techStack: [
-        "HTML/CSS",
         "JavaScript",
         "React",
+        "Tailwind",
+        "Redux-toolkit",
+        "Firebase",
+        "DaisyUI"
       ],
       description:
-        "This React-based web application leverages the OpenWeather API to provide real-time weather data. Users can search for any location to view current weather details, including temperature, humidity, and wind speed. The application is user-friendly, featuring a clean design with a dynamic search functionality for quick access to weather updates across different cities.",
+        "The Email Application is a dynamic React-based web application integrated with Firebase for authentication and database management. This app offers a clean, intuitive interface for users to manage their emails, with key features for composing, viewing, and deleting emails.",
       logo: ParabolLogo,
       link: {
-        label: "Weather Web Application",
-        href: "https://weather-application-liart-three.vercel.app/",
+        label: "Email Application",
+        href: "https://email-application-five.vercel.app/",
       },
-      github: "https://github.com/siddharthdhodi05/Weather-Application",
+      github: "https://github.com/siddharthdhodi05/Email-Application",
     },
   ],
 } as const;
